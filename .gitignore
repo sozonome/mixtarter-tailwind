@@ -6,3 +6,18 @@ node_modules
 
 public/build
 api/build
+
+# TS
+*.tsbuildinfo
+
+# styles
+/app/styles/**/*.css
+other/postcss.ignored
+
+# env files
+.env
+.env.production
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

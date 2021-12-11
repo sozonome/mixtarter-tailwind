@@ -9,9 +9,7 @@ const Header = () => {
         <Link to="/">mixtarter-tailwind</Link>
       </h1>
 
-      <div>
-        {/* <ThemeToggle /> */}
-      </div>
+      <div>{/* <ThemeToggle /> */}</div>
     </header>
   );
 };

@@ -8,15 +8,14 @@ const SomeImage = () => {
         alt="Launching Illustration"
       />
       <p>
-        <a href="https://stories.freepik.com/web" target="_blank">
+        <a
+          href="https://stories.freepik.com/web"
+          target="_blank"
+          rel="noreferrer"
+        >
           Illustration by Freepik Stories
         </a>
       </p>
-
-      <div>
-        <img src="/chakra-ui-logomark-colored.svg" />
-        <img src="/ts-logo-512.svg" />
-      </div>
     </>
   );
 };

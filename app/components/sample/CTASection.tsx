@@ -10,6 +10,7 @@ const CTASection = () => {
           aria-label="Deploy to Vercel"
           target="_blank"
           href="https://vercel.com/import/git?s=https://github.com/sozonome/mixtarter-chakra"
+          rel="noreferrer"
         >
           <img src="https://vercel.com/button" alt="Vercel deploy button" />
         </a>
@@ -18,6 +19,7 @@ const CTASection = () => {
           aria-label="Deploy to Netlify"
           target="_blank"
           href="https://app.netlify.com/start/deploy?repository=https://github.com/sozonome/mixtarter-chakra"
+          rel="noreferrer"
         >
           <img
             src="https://www.netlify.com/img/deploy/button.svg"
@@ -33,17 +35,18 @@ const CTASection = () => {
         <a
           href="https://github.com/sozonome/mixtarter-chakra/generate"
           target="_blank"
+          rel="noreferrer"
         >
           Use This Template
         </a>
       </div>
 
       <div>
-        <a href={repoLink} target="_blank">
+        <a href={repoLink} target="_blank" rel="noreferrer">
           <AiFillGithub />
           Open in Github
         </a>
-        <a href={repoLink} target="_blank">
+        <a href={repoLink} target="_blank" rel="noreferrer">
           <img
             src="https://img.shields.io/github/stars/sozonome/mixtarter-chakra?style=social"
             alt="github stars"

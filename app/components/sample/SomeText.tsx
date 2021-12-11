@@ -11,7 +11,7 @@ const SomeText = () => {
 
       <div>
         <Link to="/404">
-          <button>404 Page</button>
+          <button type="button">404 Page</button>
         </Link>
       </div>
     </div>

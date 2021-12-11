@@ -1,13 +1,16 @@
 import { Outlet } from "remix";
 import type { LinksFunction } from "remix";
 
+import appStyles from "./styles/app.css";
+import tailwindStyles from "./styles/tailwind.css";
+
 import { CatchBoundary, Document, ErrorBoundary } from "~/components/root";
-import globalStylesUrl from "~/styles/global.css";
 
 // https://remix.run/api/app#links
 export const links: LinksFunction = () => {
   return [
-    { rel: "stylesheet", href: globalStylesUrl },
+    { rel: "stylesheet", href: tailwindStyles },
+    { rel: "stylesheet", href: appStyles },
     {
       rel: "stylesheet",
       href: "https://fonts.googleapis.com/css?family=Outfit",

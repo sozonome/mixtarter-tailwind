@@ -37,7 +37,11 @@ const CatchBoundary: CatchBoundaryComponent = () => {
         <img src="/404 Error-pana.svg" alt="Error 404 not found Illustration" />
       </div>
       <div>
-        <a href="https://stories.freepik.com/web" target="_blank">
+        <a
+          href="https://stories.freepik.com/web"
+          target="_blank"
+          rel="noreferrer"
+        >
           Illustration by Freepik Stories
         </a>
       </div>
@@ -48,7 +52,7 @@ const CatchBoundary: CatchBoundaryComponent = () => {
         <div>
           <p>It&apos;s Okay!</p>
           <Link to="/">
-            <button>Let&apos;s Head Back</button>
+            <button type="button">Let&apos;s Head Back</button>
           </Link>
         </div>
       </div>
