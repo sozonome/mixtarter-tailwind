@@ -15,7 +15,7 @@ import SomeText from "~/components/sample/SomeText";
 // https://remix.run/api/conventions#meta
 export const meta: MetaFunction = () => {
   return {
-    title: "mixtarter-chakra",
+    title: "mixtarter-tailwind",
     description: "Welcome to remix!",
   };
 };

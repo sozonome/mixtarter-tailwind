@@ -4,8 +4,8 @@ import { Link } from "remix";
 
 const Header = () => {
   return (
-    <header>
-      <h1>
+    <header className="flex items-center font-bold">
+      <h1 className="text-2xl">
         <Link to="/">mixtarter-tailwind</Link>
       </h1>
 

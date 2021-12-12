@@ -7,9 +7,9 @@ type LayoutProps = {
 
 const Layout = ({ children }: LayoutProps) => {
   return (
-    <div>
+    <div className="mx-auto max-w-screen-lg p-8">
       <Header />
-      <main>{children}</main>
+      <main className="my-[22px]">{children}</main>
       <Footer />
     </div>
   );

@@ -33,26 +33,31 @@ const CatchBoundary: CatchBoundaryComponent = () => {
         {caught.status}: {caught.statusText}
       </h1>
       {message}
-      <div>
-        <img src="/404 Error-pana.svg" alt="Error 404 not found Illustration" />
-      </div>
-      <div>
+      <img
+        src="/404 Error-pana.svg"
+        alt="Error 404 not found Illustration"
+        className="mx-auto w-full sm:w-[70%] md:w-[60%]"
+      />
+      <div className="text-center">
         <a
           href="https://stories.freepik.com/web"
           target="_blank"
           rel="noreferrer"
+          className="text-xs"
         >
           Illustration by Freepik Stories
         </a>
       </div>
 
-      <div>
-        <h1>Page not Found.</h1>
+      <div className="my-4">
+        <h1 className="text-2xl text-center">Page not Found.</h1>
 
-        <div>
+        <div className="text-center">
           <p>It&apos;s Okay!</p>
           <Link to="/">
-            <button type="button">Let&apos;s Head Back</button>
+            <button type="button" className="btn">
+              Let&apos;s Head Back
+            </button>
           </Link>
         </div>
       </div>

@@ -6,8 +6,9 @@ const SomeImage = () => {
         width={400}
         height={400}
         alt="Launching Illustration"
+        className="mx-auto"
       />
-      <p>
+      <p className="text-center">
         <a
           href="https://stories.freepik.com/web"
           target="_blank"

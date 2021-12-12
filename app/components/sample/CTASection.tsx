@@ -1,15 +1,15 @@
 import { AiFillGithub } from "react-icons/ai";
 
-const repoLink = "https://github.com/sozonome/mixtarter-chakra";
+const repoLink = "https://github.com/sozonome/mixtarter-tailwind";
 
 const CTASection = () => {
   return (
-    <div>
-      <div>
+    <div className="grid gap-2 text-center mt-8">
+      <div className="flex my-4 justify-center gap-2">
         <a
           aria-label="Deploy to Vercel"
           target="_blank"
-          href="https://vercel.com/import/git?s=https://github.com/sozonome/mixtarter-chakra"
+          href="https://vercel.com/import/git?s=https://github.com/sozonome/mixtarter-tailwind"
           rel="noreferrer"
         >
           <img src="https://vercel.com/button" alt="Vercel deploy button" />
@@ -18,7 +18,7 @@ const CTASection = () => {
         <a
           aria-label="Deploy to Netlify"
           target="_blank"
-          href="https://app.netlify.com/start/deploy?repository=https://github.com/sozonome/mixtarter-chakra"
+          href="https://app.netlify.com/start/deploy?repository=https://github.com/sozonome/mixtarter-tailwind"
           rel="noreferrer"
         >
           <img
@@ -28,27 +28,41 @@ const CTASection = () => {
         </a>
       </div>
 
-      <div>
-        <code>npx degit sozonome/mixtarter-chakra {"<YOUR_APP_NAME>"}</code>
-        <br />
+      <div className="my-2 break-words">
+        <code className="bg-gray-300">
+          npx degit sozonome/mixtarter-tailwind {"<YOUR_APP_NAME>"}
+        </code>
 
-        <a
-          href="https://github.com/sozonome/mixtarter-chakra/generate"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Use This Template
-        </a>
+        <div className="mt-2">
+          <a
+            href="https://github.com/sozonome/mixtarter-tailwind/generate"
+            target="_blank"
+            rel="noreferrer"
+            className="btn text-sm"
+          >
+            Use This Template
+          </a>
+        </div>
       </div>
 
-      <div>
-        <a href={repoLink} target="_blank" rel="noreferrer">
+      <div className="flex items-center justify-center gap-2">
+        <a
+          href={repoLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn text-sm flex gap-2 items-center"
+        >
           <AiFillGithub />
           Open in Github
         </a>
-        <a href={repoLink} target="_blank" rel="noreferrer">
+        <a
+          href={repoLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sm"
+        >
           <img
-            src="https://img.shields.io/github/stars/sozonome/mixtarter-chakra?style=social"
+            src="https://img.shields.io/github/stars/sozonome/mixtarter-tailwind?style=social"
             alt="github stars"
           />
         </a>

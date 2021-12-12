@@ -2,3 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 @tailwind screens;
+
+@layer base {
+  body {
+    @apply font-sans;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply bg-gray-200 p-2 rounded-full;
+  }
+}
