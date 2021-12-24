@@ -2,8 +2,6 @@
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/sozonome/mixtarter-tailwind)
 
-[![mixtarter-tailwind](https://socialify.git.ci/sozonome/mixtarter-tailwind/image?font=Inter&language=1&owner=1&pattern=Solid&stargazers=1&theme=Dark)](https://github.com/sozonome/mixtarter-tailwind)
-
 This is a [Remix 💿](https://remix.run/) project bootstrapped with `create-remix` (vercel deployment), added with [**Tailwind v3**](https://tailwindcss.com) and [**TypeScript**](https://www.typescriptlang.org) setup.
 Start developing right away!
 
