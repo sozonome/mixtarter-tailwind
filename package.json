@@ -22,33 +22,33 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.4.2",
-    "@remix-run/react": "^1.0.6",
-    "@remix-run/serve": "^1.0.6",
+    "@remix-run/react": "^1.1.1",
+    "@remix-run/serve": "^1.1.1",
     "@remix-run/vercel": "^1.0.6",
     "clsx": "^1.1.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
-    "remix": "^1.0.6"
+    "remix": "^1.1.1"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^15.0.0",
-    "@remix-run/dev": "^1.0.6",
-    "@types/react": "^17.0.24",
+    "@remix-run/dev": "^1.1.1",
+    "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.9",
     "autoprefixer": "^10.4.0",
     "commitlint": "^15.0.0",
-    "concurrently": "^6.4.0",
+    "concurrently": "^6.5.1",
     "eslint": "7",
-    "eslint-config-sznm": "^0.1.13",
+    "eslint-config-sznm": "^0.1.14",
     "husky": "^7.0.0",
-    "lint-staged": "^12.1.2",
-    "postcss": "^8.4.4",
+    "lint-staged": "^12.1.4",
+    "postcss": "^8.4.5",
     "postcss-cli": "^9.1.0",
     "prettier": "^2.5.1",
     "standard-version": "^9.3.2",
-    "tailwindcss": "^3.0.1",
-    "typescript": "^4.1.2"
+    "tailwindcss": "^3.0.7",
+    "typescript": "^4.5.4"
   },
   "engines": {
     "node": ">=14"
