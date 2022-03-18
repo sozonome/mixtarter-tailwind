@@ -5,7 +5,8 @@ node_modules
 .output
 
 public/build
-api/build
+/build
+api/index.js
 
 # TS
 *.tsbuildinfo
