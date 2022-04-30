@@ -1,6 +1,6 @@
 import { Links, LiveReload, Meta, Scripts, ScrollRestoration } from "remix";
 
-import Layout from "./layout";
+import Layout from "../layout";
 
 type DocumentProps = {
   children: React.ReactNode;
